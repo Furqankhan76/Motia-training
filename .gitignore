@@ -4,5 +4,6 @@ python_modules
 venv
 .motia
 .mermaid
+.env
 dist
 *.pyc
