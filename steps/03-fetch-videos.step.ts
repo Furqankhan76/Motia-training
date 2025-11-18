@@ -28,6 +28,7 @@ try {
 
     const channelId = data.channelId;
     const channelName = data.channelName;
+    logger.info('Resolving youtube channel', {jobId ,channelId});
 
     const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
 
